@@ -12,3 +12,8 @@
 .father {
     font-size: 24px;
 }
+#bright {
+    background-color: #71db71;
+    font-size: 24px;
+    font-weight: bold;
+}
