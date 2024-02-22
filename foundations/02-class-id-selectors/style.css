@@ -1,9 +1,14 @@
 /* style css */
-.abba {
+.abba, 
+.father {
     background-color: #ffc0cb;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
+    /* Group (not chain) the selectors that have similar declarations, if they share similar declarations but also have other unique declarations to avoid repetition */
 }
 #idong {
     color: #0000ff; 
     font-size: 36px;
+}
+.father {
+    font-size: 24px;
 }
