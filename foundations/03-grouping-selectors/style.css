@@ -1,10 +1,19 @@
 .first {
-    background-color: hwb(0 0% 100%); color: rgb(255, 255, 255); font-weight: bold;
+    background-color: hwb(0 0% 100%); 
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
 }
 .second {
     background-color: #ffff00;
 }
 .first,
 .second{
-    font-size: 28px; font-family: "Helvetica" "Times New Roman" sans-serif;
+    font-size: 28px; 
+    font-family: Helvetica "Times New Roman" sans-serif;
+    /*Don't forget that font family is a comma separated list of fonts
+    Also, use quotes due to the whitespace between words like used in
+    times new roman and not for any other reason
+    
+    Don't string your rules on one line, always put a different rule
+     on a different line*/
 }
