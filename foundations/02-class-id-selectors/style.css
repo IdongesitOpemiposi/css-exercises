@@ -1,9 +1,15 @@
 /* style css */
-.abba, 
-.father {
+.abba {
     background-color: #ffc0cb;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
-    /* Group (not chain) the selectors that have similar declarations, if they share similar declarations but also have other unique declarations to avoid repetition */
+    /* Group (not chain) the selectors that have similar declarations,
+    if they share similar declarations but also have other unique
+    declarations to avoid repetition
+    
+    Better still, list the classes in the opening tag of the elements
+    in your html then come here and write the classes with their
+    respective rules. All the respective rules for each class will
+    apply to the element wherever the class is written in your html. */
 }
 #idong {
     color: #0000ff; 
